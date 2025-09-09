@@ -33,12 +33,18 @@ Authentication: JSON Web Tokens (JWT), bcrypt for password hashing
 Environment Management: dotenv
 
 📂 Project Structure
+
 backend/
 │-- index.js           # Entry point
-│-- routes/            # Route handlers (user, account)
+
+│-- routes/            # Route handlers (auth, account, transactions)
+
 │-- models/            # Mongoose models (User, Account)
-│-- middleware/        # Auth middlewares (JWT verify, etc.)             
+
+│-- middleware/        # Auth middlewares (JWT verify, etc.)
+
 │-- package.json
+
 
 ⚙️ Setup Instructions
 Clone the Repository
