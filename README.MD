@@ -35,6 +35,7 @@ Environment Management: dotenv
 📂 Project Structure
 
 backend/
+
 │-- index.js           # Entry point
 
 │-- routes/            # Route handlers (auth, account, transactions)

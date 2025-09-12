@@ -83,7 +83,7 @@ userRouter.post('/signin', async function(req, res) {
             msg : "signin req failed"
         })
     }
-}) 
+})
 
 userRouter.put('/', authMiddleware, async function(req, res) {
     const updateBody = zod.object({
