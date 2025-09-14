@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Signin from './pages/Signin'
+import {Signin}from './pages/Signin'
 import {Signup} from './pages/Signup'
 import SendMoney from './pages/SendMoney'
 import DashBoard from './pages/DashBoard'

@@ -36,15 +36,13 @@ export function Signup() {
             <div className="pt-4">
                 <Button onClick={ async() => {
                     try {
-
-                    
                    await axios.post("http://localhost:3000/api/v1/user/signup", {
                     username,
                     password,
                     firstname,
                     lastname
                    });
-                   navigate('/Signup')
+                   navigate('/')
                 } catch (error) {
                     console.error(error.message + "signup failed");
                     alert("signup failed")
