@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import {Signin}from './pages/Signin'
 import {Signup} from './pages/Signup'
-import SendMoney from './pages/SendMoney'
+import {SendMoney} from './pages/SendMoney'
 import DashBoard from './pages/DashBoard'
+import { Done } from './pages/Done'
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import './App.css'
 
@@ -15,6 +16,7 @@ function App() {
         <Route path='/Signin' element={<Signin/>}/> 
         <Route path='/' element={<DashBoard/>}/>
         <Route path='/SendMoney' element={<SendMoney/>}/>
+        <Route path='/done' element={<Done/>}/>
       </Routes>
       </BrowserRouter>
 
