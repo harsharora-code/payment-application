@@ -33,6 +33,7 @@ Authentication: JSON Web Tokens (JWT), bcrypt for password hashing
 Environment Management: dotenv
 
 📂 Project Structure
+```
 
 backend/
 
@@ -45,6 +46,8 @@ backend/
 │-- middleware/        # Auth middlewares (JWT verify, etc.)
 
 │-- package.json
+
+```
 
 
 ⚙️ Setup Instructions
